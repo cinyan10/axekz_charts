@@ -2,7 +2,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Radar
 
 v1 = [[60, 40, 53, 42, 51, 49]]
-v2 = [[95, 85, 130, 0, 92, 87]]
+v2 = [[95, 85, 130, 87, 92, 87]]
 v3 = [[99, 99, 99, 99, 99, 99]]
 c = (
     Radar()
@@ -10,10 +10,10 @@ c = (
         schema=[
             opts.RadarIndicatorItem(name="Bhop", max_=100),
             opts.RadarIndicatorItem(name="Combo", max_=100),
-            opts.RadarIndicatorItem(name="加速", max_=100),
-            opts.RadarIndicatorItem(name='智商', max_=100),
-            opts.RadarIndicatorItem(name="滑坡", max_=100),
-            opts.RadarIndicatorItem(name="梯子", max_=100),
+            opts.RadarIndicatorItem(name="Strafe", max_=100),
+            opts.RadarIndicatorItem(name='钻缝', max_=100),
+            opts.RadarIndicatorItem(name="Slide", max_=100),
+            opts.RadarIndicatorItem(name="Ladder", max_=100),
         ]
     )
     .add("Exa", v1, color='blue')
