@@ -14,10 +14,10 @@ line.set_global_opts(
     title_opts=TitleOpts(title='AXE Kreedz总游玩人数', pos_left='center', pos_bottom='1%'),
     legend_opts=LegendOpts(is_show=True),
     toolbox_opts=ToolboxOpts(is_show=True),
-    visualmap_opts=VisualMapOpts(
-        is_show=False,
-        pos_left='right',
-    ),
+    # visualmap_opts=VisualMapOpts(
+    #     is_show=False,
+    #     pos_left='right',
+    # ),
 )
 
 line.render()
