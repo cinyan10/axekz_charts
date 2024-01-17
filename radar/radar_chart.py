@@ -11,7 +11,7 @@ c = (
             opts.RadarIndicatorItem(name="Bhop", max_=100),
             opts.RadarIndicatorItem(name="Combo", max_=100),
             opts.RadarIndicatorItem(name="Strafe", max_=100),
-            opts.RadarIndicatorItem(name='钻缝', max_=100),
+            opts.RadarIndicatorItem(name='gap', max_=100),
             opts.RadarIndicatorItem(name="Slide", max_=100),
             opts.RadarIndicatorItem(name="Ladder", max_=100),
         ]
