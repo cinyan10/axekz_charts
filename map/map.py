@@ -46,6 +46,7 @@ map.add('玩家数量', map_data)
 
 map.set_global_opts(
     title_opts=TitleOpts(title="AXE KZ玩家分布"),
+    toolbox_opts=ToolboxOpts(is_show=True),
     visualmap_opts=VisualMapOpts(
         is_show=True,
         is_piecewise=False,
